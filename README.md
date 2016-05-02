@@ -1,4 +1,4 @@
-# load_tables
+# insert_multiple_csv
 Use cx-Oracle in Python to bulk load arbitrary tables using csv files
 
 I recently got a request to load hundreds of database tables in a day and a half using csv files our developers created. I considered using SQL Loader but I didn't want to spend the time understanding the table structure and creating the control file for each table. Another alternative was to use SQL Developer to import the csv files. That goes against my nature because it would be a manual, repetitive and error prone process.
