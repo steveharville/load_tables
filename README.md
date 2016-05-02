@@ -7,3 +7,6 @@ The csv files were fairly small so plain inserts would work. I looked at writing
 
 Python turned out to be the right choice and the script was very easy to write. The only tricky part was recognizing the date fields. Those are unquoted like a numeric field but contain literals like JAN,FEB, etc. Python and cx-Oracle handled everything with a minimum of effort on my part.
 
+Create the csv files in a dedicated subdirectory like : 
+tablename.csv
+first row contains the table column names
