@@ -1,4 +1,4 @@
-#
+# copyright 2016 Steve Harville
 import cx_Oracle
 import csv
 import datetime
